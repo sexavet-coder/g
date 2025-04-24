@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    color: #333;
+    background: #fff;
+  }
+  
+  header {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fcd202;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .enquire-btn {
+    background: #1e1e2f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #fafafa;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .btn-dark {
+    margin: 1rem 0;
+    background: #1e1e2f;
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .counters {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .team-intro {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  
+  .team-intro img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .team-text {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+  
+  .why-us {
+    background: #eaf2f4;
+    padding: 4rem 2rem;
+  }
+  
+  .why-us .columns {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .process {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .steps h3 {
+    font-size: 1.2rem;
+    color: #1e1e2f;
+  }
+  
+  .btn-dark {
+    background: #1e1e2f;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+  }
